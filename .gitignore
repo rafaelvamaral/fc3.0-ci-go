@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build / output directories
+/bin/
+/build/
+/dist/
+/pkg/
+
+# Dependency directories
+/vendor/
+
+# Go tooling
+coverage.out
+
+# Environment files
+.env
+.env.local
+
+# Docker overrides
+docker-compose.override.yml
+
+# Editor and OS files
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Go project files
+go.mod
+
+# Sonar
+.scannerwork
